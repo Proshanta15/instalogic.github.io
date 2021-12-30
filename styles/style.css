@@ -130,6 +130,9 @@ ul li {
   color: #c20505;
   margin: 0px 5px;
 }
+.header_top .main .links .num p:hover {
+  color: #c20505;
+}
 
 .header_top .main .links .social {
   display: -webkit-box;
