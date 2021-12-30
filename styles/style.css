@@ -43,7 +43,29 @@ ul {
 ul li {
   list-style-type: none;
 }
+/*Top to bottom Scroll Button*/
+#bottom-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 3px;
+  font-size: 30px;
+  background: #e74c3c;
+  color: #222121;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 99;
+}
 
+#bottom-to-top:hover {
+  background: #9b3a3a;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 /*************** Start Header Top**************/
 .header_top {
   background: #000;
